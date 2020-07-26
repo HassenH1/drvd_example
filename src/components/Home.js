@@ -2,6 +2,7 @@ import React from "react";
 import Slides from "./Slides";
 import ImageSection from "./ImageSection";
 import DrivenB from "./DrivenB";
+import OTCQB from "./OTCQB";
 
 function Home() {
   return (
@@ -9,6 +10,7 @@ function Home() {
       <Slides />
       <ImageSection />
       <DrivenB />
+      <OTCQB />
     </div>
   );
 }

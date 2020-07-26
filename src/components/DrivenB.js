@@ -85,7 +85,7 @@ function DrivenB() {
           <Typography
             component="div"
             style={{
-              height: "22vh",
+              height: "32vh",
               textAlign: "center",
               // display: "flex",
               justifyContent: "center",
