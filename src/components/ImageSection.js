@@ -12,7 +12,7 @@ function ImageSection() {
     >
       <div
         style={{
-          height: "10rem",
+          height: "27rem",
           width: "40rem",
           minHeight: "350px",
         }}
@@ -25,7 +25,7 @@ function ImageSection() {
       </div>
       <div
         style={{
-          height: "10rem",
+          height: "27rem",
           width: "40rem",
           minHeight: "350px",
           background: "black",
@@ -33,16 +33,18 @@ function ImageSection() {
           textAlign: "center",
         }}
       >
-        <h2
-          style={{
-            fontSize: "1.5em",
-            lineHeight: "1.35em",
-            fontWeight: "bold",
-            marginTop: "2em",
-          }}
-        >
-          <span>brand, product & people driven</span>
-        </h2>
+        <div style={{ width: "18rem", margin: "0 auto" }}>
+          <h2
+            style={{
+              fontSize: "2em",
+              lineHeight: "1.35em",
+              fontWeight: "bold",
+              marginTop: "2em",
+            }}
+          >
+            <span>brand, product & people driven</span>
+          </h2>
+        </div>
         <div style={{ padding: "1em 5em" }}>
           <p>
             Driven is an all-in-one technology and logistics solution built for
