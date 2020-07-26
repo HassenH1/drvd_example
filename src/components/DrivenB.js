@@ -27,6 +27,7 @@ function DrivenB() {
               textAlign: "center",
               display: "flex",
               justifyContent: "space-evenly",
+              marginBottom: "4em",
             }}
           >
             <div>
@@ -35,7 +36,11 @@ function DrivenB() {
                 alt="icon"
                 style={{ height: "165px", width: "185px" }}
               />
-              <p>driven</p>
+              <div style={{ width: "12rem", fontWeight: "lighter" }}>
+                <p style={{ fontWeight: "lighter", fontSize: "15px" }}>
+                  largest online cannabis retailer in California
+                </p>
+              </div>
             </div>
             <div>
               <img
@@ -43,7 +48,11 @@ function DrivenB() {
                 alt="icon"
                 style={{ height: "165px", width: "185px" }}
               />
-              <p>driven</p>
+              <div style={{ width: "12rem", fontWeight: "lighter" }}>
+                <p style={{ fontWeight: "lighter", fontSize: "15px" }}>
+                  same day & next day scheduled delivery
+                </p>
+              </div>
             </div>
             <div>
               <img
@@ -51,7 +60,11 @@ function DrivenB() {
                 alt="icon"
                 style={{ height: "165px", width: "185px" }}
               />
-              <p>driven</p>
+              <div style={{ width: "12rem", fontWeight: "lighter" }}>
+                <p style={{ fontWeight: "lighter", fontSize: "15px" }}>
+                  same day express delivery
+                </p>
+              </div>
             </div>
             <div>
               <img
@@ -59,7 +72,42 @@ function DrivenB() {
                 alt="icon"
                 style={{ height: "165px", width: "185px" }}
               />
-              <p>driven</p>
+              <div style={{ width: "12rem", fontWeight: "lighter" }}>
+                <p style={{ fontWeight: "lighter", fontSize: "15px" }}>
+                  app-based community for cannabis enthusiasts
+                </p>
+              </div>
+            </div>
+          </Typography>
+
+          <br />
+
+          <Typography
+            component="div"
+            style={{
+              height: "22vh",
+              textAlign: "center",
+              // display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <div style={{ margin: "0 16em" }}>
+              <h2
+                style={{
+                  fontSize: "38px",
+                  fontWeight: "lighter",
+                  fontFamily: "Arial",
+                }}
+              >
+                YOUR BRAND COULD BE DIRECT TO CONSUMER WITH
+              </h2>
+            </div>
+
+            <div>
+              <h2 style={{ fontSize: "60px", margin: "0" }}>
+                <span style={{ color: "purple" }}>Brand</span>
+                <span style={{ color: "lightgreen" }}>Budee</span>
+              </h2>
             </div>
           </Typography>
         </Typography>
