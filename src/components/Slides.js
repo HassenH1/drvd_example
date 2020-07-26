@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Swiper from "swiper";
-import "swiper/css/swiper.min.css";
+// import "swiper/css/swiper.min.css";
 
 export default class Slides extends Component {
   componentDidMount() {
