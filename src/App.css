@@ -37,3 +37,28 @@ body {
   -webkit-align-items: center;
   align-items: center;
 }
+
+.aws-btn {
+  --slider-height-percentage: 41%;
+  --slider-transition-duration: 700ms;
+  --organic-arrow-thickness: 2px;
+  --organic-arrow-border-radius: 0px;
+  --organic-arrow-height: 25px;
+  --organic-arrow-color: #ffffff;
+  --control-button-width: 15%;
+  --control-button-height: 25%;
+  --control-button-background: transparent;
+  --control-bullet-color: #ffffff;
+  --control-bullet-active-color: #26456f;
+  --loader-bar-color: transparent;
+  --loader-bar-height: 6px;
+}
+
+.awssld__wrapper {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  height: 30rem;
+  width: 100%;
+  background-color: "#ffffff";
+}

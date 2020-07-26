@@ -14,7 +14,7 @@ function DrivenB() {
           textAlign: "center",
         }}
       >
-        <h1 style={{ fontWeight: "lighter", fontSize: "36px" }}>
+        <h1 style={{ fontWeight: "lighter", fontSize: "36px", marginTop: "0" }}>
           DRIVE BUSINESS UNITS
         </h1>
 

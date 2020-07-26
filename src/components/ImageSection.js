@@ -6,8 +6,8 @@ function ImageSection() {
       style={{
         display: "flex",
         justifyContent: "center",
-        marginBottom: "3em",
         background: "#ffffff",
+        paddingBottom: "3rem",
       }}
     >
       <div
