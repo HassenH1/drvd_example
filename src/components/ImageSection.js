@@ -2,7 +2,14 @@ import React from "react";
 
 function ImageSection() {
   return (
-    <section style={{ display: "flex", justifyContent: "center" }}>
+    <section
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        marginBottom: "3em",
+        background: "#ffffff",
+      }}
+    >
       <div
         style={{
           height: "10rem",
