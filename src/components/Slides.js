@@ -10,11 +10,23 @@ function Slides() {
   return (
     <div style={{ paddingBottom: "5rem", background: "#ffffff" }}>
       <AutoplaySlider
-        play={true}
+        play={false}
         cancelOnInteraction={false} // should stop playing on user interaction
         interval={6000}
       >
-        <div style={{ background: "black" }}>1</div>
+        <div
+          style={{ background: "black", color: "white", textAlign: "center" }}
+        >
+          <div style={{ margin: "0 auto", fontSize: "36px" }}>
+            <h1>we are driven.</h1>
+          </div>
+          <div style={{ padding: "0 32rem", fontSize: "17px" }}>
+            <p>
+              Driven is the largest online cannabis retailer in the state of
+              California, covering 92% and growing.
+            </p>
+          </div>
+        </div>
         <div style={{ background: "white" }}>2</div>
         <div style={{ background: "lightgreen" }}>3</div>
         <div style={{ background: "#00DDDD" }}>4</div>
