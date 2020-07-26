@@ -4,7 +4,7 @@ import { Typography, Button } from "@material-ui/core";
 function OTCQB() {
   return (
     <>
-      <Typography component="div">
+      <Typography component="div" style={{ height: "38vh" }}>
         <div
           style={{
             width: "100%",
@@ -22,19 +22,20 @@ function OTCQB() {
           <div
             style={{
               position: "absolute",
-              top: "50%",
+              top: "38%",
               left: "50%",
               transform: "translate(-50%, -50%)",
               textAlign: "center",
+              height: "5rem",
               // zIndex: "1",
             }}
           >
-            <h1 style={{ fontSize: "55px" }}>OTCQB: DRVD</h1>
+            <h1 style={{ fontSize: "55px", marginTop: "0" }}>OTCQB: DRVD</h1>
           </div>
           <div
             style={{
               position: "absolute",
-              top: "72%",
+              top: "60%",
               left: "50%",
               transform: "translate(-50%, -50%)",
               textAlign: "center",
@@ -49,16 +50,20 @@ function OTCQB() {
           <div
             style={{
               position: "absolute",
-              top: "90%",
+              top: "80%",
               left: "50%",
               transform: "translate(-50%, -50%)",
               textAlign: "center",
-              width: "50%",
+              width: "32%",
               zIndex: "1",
             }}
           >
-            <Button color="primary" fullWidth="true">
-              CLick here to Begin
+            <Button
+              variant="contained"
+              fullWidth={true}
+              style={{ fontSize: "18px", background: "black", color: "white" }}
+            >
+              INVEST IN THE FUTURE OF CANNABIS
             </Button>
           </div>
         </div>
