@@ -14,10 +14,10 @@ function Slides() {
         cancelOnInteraction={false} // should stop playing on user interaction
         interval={6000}
       >
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
+        <div style={{ background: "black" }}>1</div>
+        <div style={{ background: "white" }}>2</div>
+        <div style={{ background: "lightgreen" }}>3</div>
+        <div style={{ background: "#00DDDD" }}>4</div>
       </AutoplaySlider>
     </div>
   );
