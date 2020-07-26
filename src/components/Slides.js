@@ -3,6 +3,7 @@ import AwesomeSlider from "react-awesome-slider";
 import "react-awesome-slider/dist/styles.css";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "../App.css";
+import { Button } from "@material-ui/core";
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
@@ -25,6 +26,9 @@ function Slides() {
               Driven is the largest online cannabis retailer in the state of
               California, covering 92% and growing.
             </p>
+          </div>
+          <div>
+            <Button color="primary">LEARN MORE ABOUT US</Button>
           </div>
         </div>
         <div style={{ background: "white" }}>2</div>
